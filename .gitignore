@@ -3,7 +3,7 @@
 certs/
 certs-data/
 logs/
-nginx/
+nginx/*
 mysql/
 wordpress/*
 !wordpress/README.md
