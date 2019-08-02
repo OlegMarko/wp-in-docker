@@ -3,8 +3,9 @@
 certs/
 certs-data/
 logs/
-nginx/
+nginx/*
 mysql/
-wordpress/
+wordpress/*
+!wordpress/README.md
 !.env_example
 !nginx/default*

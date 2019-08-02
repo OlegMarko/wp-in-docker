@@ -7,4 +7,4 @@ RUN apt-get update && \
 
 WORKDIR /var/www/html
 
-# RUN git clone --progress https://github.com/WordPress/WordPress.git /var/www/html
+RUN git clone --progress https://github.com/OlegMarko/wp-theme.git /var/www/html
