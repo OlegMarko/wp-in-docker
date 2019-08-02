@@ -5,6 +5,6 @@ certs-data/
 logs/
 nginx/*
 mysql/
-wordpress/*
+wordpress/
 !.env_example
 !nginx/default*
