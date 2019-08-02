@@ -6,5 +6,7 @@ RUN apt-get update && \
     apt-get install -y git 
 
 WORKDIR /var/www/html
+RUN chown -R www-data:www-data /var/www/html
+RUN chmod -R 775 /var/www/html
 
-RUN git clone --progress https://github.com/OlegMarko/wp-theme.git /var/www/html
+RUN git clone --progress git@github.com:OlegMarko/wp-in-docker.git /var/www/html
