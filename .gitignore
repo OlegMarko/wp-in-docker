@@ -6,6 +6,5 @@ logs/
 nginx/*
 mysql/
 wordpress/*
-!wordpress/README.md
 !.env_example
 !nginx/default*
