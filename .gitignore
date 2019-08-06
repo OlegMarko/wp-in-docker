@@ -4,7 +4,9 @@ certs/
 certs-data/
 logs/
 nginx/*
+!nginx/default*
 mysql/
 wordpress/
 !.env_example
-!nginx/default*
+ssh/*
+!ssh/id_rsa_example
