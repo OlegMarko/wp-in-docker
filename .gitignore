@@ -6,7 +6,6 @@ logs/
 nginx/*
 !nginx/default*
 mysql/
-wordpress/
 !.env_example
 ssh/*
 !ssh/id_rsa_example
